@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Console.Hub</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top p-4">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo da Console.hub"></a>
+
+                <!-- Menu Hamburguer -->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Sidebar -->
+                <div class="sidebar offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+
+                <!-- Cabeçalho Sidebar -->
+                    <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Console.Hub</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                
+                <!-- Corpo Sidebar -->
+                    <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                        <a class="nav-link" href="stream.html">Stream</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+
+                    <div class="offcanvas-body" id="offcanvas-imagem">
+                        <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/link.svg" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/link1.svg" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/link2.svg" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/link3.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container banner pl-5 pr-5">
+
+        <div class="banner__container__texto">
+            <h1 class="banner__titulo">Crie seu novo<span class="banner__span">Legado</span></h1>
+            <p class="banner__paragrafo">Jogue com mais de 10 milhões de jogadores em ligas, torneios e classificações</p>
+            <div class="banner__botoes">
+                <a href="login.html" class="banner__link" target="_blank">
+                    <img src="img/bannerlogin.svg" alt="Login" class="banner__imagem">
+                </a>
+                <a href="singup.html" class="banner__link" target="_blank">
+                    <img src="img/bannersingup.svg" alt="Singup" class="banner__imagem">
+                </a>
+            </div>
+        </div>
+
+        <div class="banner__container__imagem">
+            <img src="img/bannerimg.png" alt="Personagem do Jogo Assassins Creed" class="banner__personagem">
+        </div>
+
+    </section>
+
+    <section class="Transmissoes">
+
+        <h2 class="transmissoes__titulo">Transmissões ao vivo</h2>
+
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/live3.svg" alt="Capa do jogo Elemental Spirits" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Elemental Spirits</h2>
+                            <p class="description transmissoes__card__texto">A jogabilidade Elemental Spirit de Mr.X está disponível.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/live4.svg" alt="Capa do jogo Blaze City" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Blaze City</h2>
+                            <p class="description transmissoes__card__texto">Assista Blind defender sua cidade dos ataques.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/live2.svg" alt="Capa do jogo Rocket League" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Rocket League</h2>
+                            <p class="description transmissoes__card__texto">Rouge0 está transmitindo assista ao vivo</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/live.svg" alt="Capa do jogo Valorant" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Valorant</h2>
+                            <p class="description transmissoes__card__texto">As semifinais do Mundial de Valorant estão ao vivo.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/live1.svg" alt="Capa do jogo PUBG" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">PUBG</h2>
+                            <p class="description transmissoes__card__texto">A partida mais esperada: Blades vs Eagles ao vivo</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+
+    </section>
+
+    <section class="destaques">
+
+        <h2 class="destaques__titulo">Jogos em destaque</h2>
+
+        <div class="slide-container swiper swiper__destaques">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/destaque.svg" alt="Capa do jogo Read Dead Redemption II" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">RDR II</h2>
+                            <p class="description transmissoes__card__texto">Divirtasse com seus amigos.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/destaque1.svg" alt="Capa do jogo Blaze City" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Blaze City</h2>
+                            <p class="description transmissoes__card__texto">Bandidos lutando uns contra os outros.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/destaque2.svg" alt="Capa do jogo Rocket League" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Elemental Spirits</h2>
+                            <p class="description transmissoes__card__texto">Wix, de 11 anos, inicia sua primeira aventura.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/destaque3.svg" alt="Capa do jogo Valorant" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">Call Of Duty</h2>
+                            <p class="description transmissoes__card__texto">Os russos são expulsos pelos militares dos EUA.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="img/destaque4.svg" alt="Capa do jogo PUBG" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name transmissoes__card__titulo">D&D</h2>
+                            <p class="description transmissoes__card__texto">perigo e aventura com Dungeons & Dragons Online.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="eventos">
+
+        <h2 class="eventos__titulo">Principais eventos</h2>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner p-5">
+              <div class="carousel-item active">
+                <img src="img/Slice 1.svg" class="d-block w-100" alt="Capa do jogo Rocket League">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slice 2.svg" class="d-block w-100" alt="Capa do jogo Sword Warrior">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slice 3.svg" class="d-block w-100" alt="Capa do jogo Machine Wars">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           
+    </section>
+
+    <section class="escolhas">
+
+        <h2 class="escolhas__titulo">Principais escolhas</h2>
+        <p class="escolhas__texto">Aqui estão as principais escolhas do mês que atraíram o maior número de atenção dos usuários.</p>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-5">
+              <div class="carousel-item active">
+                <img src="img/escolha1.svg" class="d-block w-100" alt="Capa do jogo Machine Wars">
+              </div>
+              <div class="carousel-item">
+                <img src="img/escolha2.svg" class="d-block w-100" alt="Capa do jogo Sword Warrior">
+              </div>
+              <div class="carousel-item">
+                <img src="img/escolha3.svg" class="d-block w-100" alt="Capa do jogo Blaze City">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <section class="gratuitos">
+
+        <h2 class="gratuitos__titulo">Principais Jogos Gratuitos</h2>
+
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait8.svg" alt="Capa do jogo Forza 5" class="card-img-top gratuitos__card__capa">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">Forza 5</h5>
+                            <p class="card-text gratuitos__card__texto">Forza Horizon 5 é um videogame de corrida 2021 desenvolvido pela Playground Games.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait6.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Valorant">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">Valorant</h5>
+                            <p class="card-text gratuitos__card__texto">Valorant é um jogo de tiro em primeira pessoa free-to-play desenvolvido pela Riot.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait3.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo God of War Ragnarok">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">God of War</h5>
+                            <p class="card-text gratuitos__card__texto">God of War é uma franquia de jogos de ação e aventura criada por David Jaffe.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait1.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Read Dead Redemption II">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">RDR II</h5>
+                            <p class="card-text gratuitos__card__texto">Red Dead Redemption 2 é um jogo de ação e aventura desenvolvido e publicado em 2018.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait7.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Guildwars">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">GuildWars</h5>
+                            <p class="card-text gratuitos__card__texto">Guild Wars é uma série de RPG online desenvolvida pela ArenaNet.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait4.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Euro Truck">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">Euro Truck</h5>
+                            <p class="card-text gratuitos__card__texto">Euro Truck Simulator 2 é um jogo de simulador de caminhão de mundo aberto.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait2.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Rocket League">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">Rocket League</h5>
+                            <p class="card-text gratuitos__card__texto">Rocket League é um híbrido de alta potência de futebol estilo arcade e caos veicular.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo Cyberpunk 2077">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">Cyberpunk 2077</h5>
+                            <p class="card-text gratuitos__card__texto">Cyberpunk 2077 é um videogame RPG de ação desenvolvido pela CD Projekt.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 gratuitos__card">
+                    <div class="card">
+                        <img src="img/portrait5.svg" class="card-img-top gratuitos__card__capa" alt="Capa do jogo GTA V">
+                        <div class="card-body gratuitos__container__texto">
+                            <h5 class="card-title gratuitos__card__titulo">GTA V</h5>
+                            <p class="card-text gratuitos__card__texto">Grand Theft Auto V é um jogo de ação e aventura desenvolvido e publicado em 2013.</p>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                            <i class="fa-solid fa-star" style="color: #f5d60a;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="rodape">
+
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="img/logo.png" alt="">
+                
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <img src="img/icon.svg" alt="">
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <img src="img/icon1.svg" alt="">
+                    </a>
+
+                    <a href="#" class="footer-link" id="instagram">
+                        <img src="img/icon2.svg" alt="">
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <img src="img/icon3.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Empresa</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Informações</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Contate-nos</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Ajuda</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Hospedagem</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">FAQs</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Monetização</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Contato</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">(12)3456789</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">email@contato.com</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Rua do sabão</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            Gabriella Acarie - 2023 all rights reserved
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+</body>
+</html>

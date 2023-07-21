@@ -1,0 +1,105 @@
+.transmissoes__titulo,
+.destaques__titulo,
+.eventos__titulo,
+.escolhas__titulo,
+.gratuitos__titulo{
+    font-size: 2.3rem;
+    margin: 80px 60px;
+    font-weight: 600;
+    color: var(--branco);
+}
+
+.transmissoes__card__titulo,
+.destaques__card__titulo{
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: var(--preto);
+}
+
+.gratuitos__card__titulo{
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: var(--branco);
+}
+
+.transmissoes__card__texto,
+.destaques__card__texto{
+    font-size: 1.5rem;
+    color: var(--azul-escuro);
+    margin-bottom: 20px;
+}
+
+.escolhas__texto{
+    font-size: 1.5rem;
+    color: var(--cinza);
+    width: 70%;
+    margin: 20px 60px;
+}
+
+.blog__texto{
+    font-size: 1.5rem;
+    color: var(--cinza);
+    width: 70%;
+    margin: 60px 60px;
+}
+
+.gratuitos__card__texto{
+    color: var(--cinza);
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content{
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.swiper-slide{
+    border-radius: 25px;
+    background-color: var(--cor-de-fundo);
+}
+
+.image-content,
+.card-content{
+    padding: 10px 14px;
+}
+
+.swiper-pagination-bullet{
+    background-color: var(--azul);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--azul-escuro);
+}
+
+.gratuitos{
+    margin-bottom: 30px;
+}
+
+.gratuitos__card__texto{
+    color: var(--azul-escuro);
+    font-size: 1rem;
+}
+
+.jogos{
+    margin: 10em 0 0 0;
+}
+
+.jogos__titulo{
+    font-size: 2.3rem;
+    margin: 50px 60px;
+    font-weight: 600;
+    color: var(--branco);
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+
+}

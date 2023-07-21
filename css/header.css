@@ -1,0 +1,10 @@
+.navbar{
+    background-color: var(--azul-escuro);
+}
+
+@media (max-width: 1200px){
+
+    #offcanvasNavbar{
+        background-color: var(--azul-escuro);
+    }
+}

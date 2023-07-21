@@ -1,0 +1,78 @@
+.banner{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10em 0;
+}
+
+.blog{
+    margin: 10em 6em;
+}
+
+.banner__container__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__titulo{
+    color: var(--cinza);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.banner__span{
+    display: flex;
+    color: var(--amarelo);
+    line-height: 0.8em
+}
+
+.banner__paragrafo{
+    color: var(--cinza);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2em 0;
+}
+
+.banner__botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner__imagem{
+    padding: 1em;
+}
+
+.banner__personagem{
+    width: 350px;
+    height: 480px;
+}
+
+@media screen and (max-width:1300px) {
+
+    .banner__personagem{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .banner__titulo{
+        font-size: 3.5rem;
+        
+    }
+
+    .banner__paragrafo{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .banner__imagem{
+        padding: 1em;
+        width: 150px;
+    }
+}
+
+
